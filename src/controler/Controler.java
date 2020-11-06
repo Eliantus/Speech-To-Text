@@ -91,7 +91,7 @@ public class Controler implements ActionListener {
 			Files.createDirectories(Paths.get(dirPath));
 			Files.setAttribute(Paths.get(dirPath), "dos:hidden", Boolean.TRUE, LinkOption.NOFOLLOW_LINKS);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		
