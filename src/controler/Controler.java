@@ -340,7 +340,6 @@ public class Controler implements ActionListener {
 				}
 				
 				else {
-					System.out.println("Cancel");
 					stopReading();
 					isReading=false;
 					w.Toread();
